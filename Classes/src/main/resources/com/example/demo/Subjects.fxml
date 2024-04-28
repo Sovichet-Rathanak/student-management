@@ -1,14 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.demo.Subjects"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="503.0" prefWidth="829.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Subjects">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#02396b" height="504.0" stroke="#02396b" strokeType="INSIDE" width="164.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="30.0" layoutX="28.0" layoutY="115.0" stroke="WHITE" strokeType="INSIDE" width="108.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="30.0" layoutX="28.0" layoutY="161.0" stroke="WHITE" strokeType="INSIDE" width="108.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="30.0" layoutX="28.0" layoutY="209.0" stroke="WHITE" strokeType="INSIDE" width="108.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="30.0" layoutX="28.0" layoutY="252.0" stroke="WHITE" strokeType="INSIDE" width="108.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="30.0" layoutX="28.0" layoutY="301.0" stroke="WHITE" strokeType="INSIDE" width="108.0" />
+      <Label layoutX="31.0" layoutY="32.0" text="LOLEI" textFill="#ff8800">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="118.0" prefHeight="25.0" prefWidth="90.0" text="Dashboard">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="50.0" layoutY="165.0" prefHeight="25.0" prefWidth="67.0" text="Classes">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Label layoutX="35.0" layoutY="212.0" prefHeight="25.0" prefWidth="98.0" text="Assignments">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="47.0" layoutY="256.0" prefHeight="25.0" prefWidth="74.0" text="Students">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="49.0" layoutY="304.0" prefHeight="25.0" prefWidth="67.0" text="Settings">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="55.0" layoutY="458.0" mnemonicParsing="false" text="Logout" />
+      <Line layoutX="132.0" layoutY="438.0" startX="-100.0" stroke="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#02396b" height="130.0" layoutX="180.0" layoutY="54.0" stroke="#02396b" strokeType="INSIDE" width="631.0" />
+      <ImageView fitHeight="35.0" fitWidth="46.0" layoutX="187.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../java/com/example/demo/globe.png" />
+         </image></ImageView>
+      <ComboBox layoutX="232.0" layoutY="20.0" prefHeight="25.0" prefWidth="90.0" promptText="English" />
+      <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="596.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../java/com/example/demo/Mail.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="635.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../java/com/example/demo/Bell.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="41.0" layoutX="770.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../java/com/example/demo/avatarIcon.png" />
+         </image></ImageView>
+      <Line endX="-100.0" endY="121.0" layoutX="779.0" layoutY="-73.0" startX="-100.0" startY="88.0" />
+      <Label layoutX="689.0" layoutY="10.0" text="Sun Leang">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="690.0" layoutY="28.0" prefHeight="17.0" prefWidth="67.0" text="Student" textFill="#ff6500">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="94.0" prefHeight="49.0" prefWidth="580.0" text="Dashboard &gt; Classes &gt; OOP" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="40.0" />
+         </font></Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#02396b" height="286.0" layoutX="660.0" layoutY="188.0" stroke="#02396b" strokeType="INSIDE" width="152.0" />
+      <Label layoutX="682.0" layoutY="209.0" text="Your Event" textFill="#ffce12">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Line endX="17.0" layoutX="778.0" layoutY="251.0" startX="-100.0" stroke="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="143.0" layoutX="177.0" layoutY="201.0" stroke="BLACK" strokeType="INSIDE" width="468.0" />
+      <Line endX="301.0" layoutX="277.0" layoutY="367.0" startX="-100.0" />
+      <Button layoutX="584.0" layoutY="355.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="54.0" text="Add..." />
+      <Label layoutX="188.0" layoutY="206.0" prefHeight="38.0" prefWidth="413.0" text="Chapter 1 : Introduction to OOP">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="17.0" fitWidth="22.0" layoutX="216.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../java/com/example/demo/Slide.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="237.0" layoutY="243.0" prefHeight="17.0" prefWidth="106.0" text="Slide Lesson">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>
