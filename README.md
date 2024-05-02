@@ -1,3 +1,5 @@
+Student Management System
+
 A student management system is a software platform that centralizes student data and administrative tasks within educational institutions. It includes features for managing student information, academic records, attendance, grading, communication, fee management, and reporting. Its purpose is to streamline administrative processes, enhance communication, and improve overall efficiency in educational settings.
 Here's an overview of the key components and functionalities typically found in a student management system:
 
